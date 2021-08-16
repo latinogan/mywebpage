@@ -23,17 +23,16 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/theme/creative",
+    "homepage": ".",
     "bugs": {
         "url": "https://github.com/latinogan",
         "email": "roger.castillo.arce@gmail.com"
     },
     "license": "MIT",
     "author": "Roger smit",
-    
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-creative.git"
+        "url": "https://github.com/latinogan"
     },
     "dependencies": {
         "bootstrap": "5.1.0"
@@ -47,7 +46,7 @@
         "prettier": "2.3.2",
         "pug": "3.0.2",
         "sass": "1.37.5",
-        "shelljs": "0.8.4",
+        "shelljs": "^0.8.4",
         "upath": "2.0.1"
     }
 }
