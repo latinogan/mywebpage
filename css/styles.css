@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - Creative v7.0.4 (https://startbootstrap.com/theme/creative)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
+* Start Bootstrap - webpage v7.0.4 (.)
+* Copyright 2013-2021 Roger smit
+* Licensed under MIT (https://github.com/StartBootstrap/webpage/blob/master/LICENSE)
 */
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
@@ -5015,21 +5015,20 @@ textarea.form-control-lg {
   height: 1rem;
   overflow: hidden;
   font-size: 0.75rem;
-  background-color:yellow;
+  background-color: #e9ecef;
   border-radius: 0.25rem;
 }
 
 .progress-bar {
   display: flex;
-  flex-direction: column ;
+  flex-direction: column;
   justify-content: center;
   overflow: hidden;
-  color: black;
+  color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: lime;
+  background-color: #f4623a;
   transition: width 0.6s ease;
-
 }
 @media (prefers-reduced-motion: reduce) {
   .progress-bar {
@@ -11444,7 +11443,6 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-
 .html{
   width: 100px;
   height: 100px;

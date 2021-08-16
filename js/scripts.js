@@ -1,7 +1,7 @@
 /*!
-* Start Bootstrap - Creative v7.0.4 (https://startbootstrap.com/theme/creative)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
+* Start Bootstrap - webpage v7.0.4 (.)
+* Copyright 2013-2021 Roger smit
+* Licensed under MIT (https://github.com/StartBootstrap/webpage/blob/master/LICENSE)
 */
 //
 // Scripts
@@ -57,4 +57,3 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
-
