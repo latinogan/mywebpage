@@ -11302,16 +11302,80 @@ body {
   border-radius: 10rem;
 }
 
-hr.divider {
-  height: 0.2rem;
-  max-width: 3.25rem;
-  margin: 1.5rem auto;
-  background-color: #f4623a;
-  opacity: 1;
+.html {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
 }
 
-hr.divider-light {
-  background-color: #fff;
+.native {
+  width: 500px;
+  height: 300px;
+  margin-top: -20%;
+  margin-left: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.css {
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 13px;
+}
+
+.js {
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 13px;
+}
+
+.ang {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100px;
+  height: 60px;
+  margin-top: 30px;
+  margin-left: 13px;
+}
+
+.ro {
+  align: right;
+}
+
+.ge {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 830px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 18px;
+}
+
+.node {
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.react {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 13px;
+}
+
+.boot {
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.mongo {
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 
 #mainNav {
@@ -11442,83 +11506,4 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
-}
-.html{
-  width: 100px;
-  height: 100px;
-  margin-top:30px ;
-}
-
-.native {
-  width: 500px;
-  height: 300px;
-  margin-top:-20% ;
-  margin-left: 700px;
-  object-fit: cover;
-
-
-
-}
-
-.css{
-  width: 100px;
-  margin-top: 30px;
-  margin-left: 13px;
-
-}
-
-.js {
-  width: 100px;
-  margin-top: 30px;
-  margin-left: 13px;
-
-}
-.ang{
-  object-fit: cover;
-  width: 100px;
-  height: 60px;
-  margin-top: 30px;
-  margin-left: 13px;
-
-
-}
-.ro{
-  align: right;
-}
-
-.ge{
-  object-fit: cover;
-  width: 100%;
-  height: 830px;
-  margin-top: 20px;
-  margin-left: 87px;
-  margin-bottom: 18px;
-
-}
-
-
-
-.node{
-   width: 100px;
-  margin-top: 30px;
-  margin-left: 20px;
-
-}
-.react{
-  object-fit: cover;
-  width: 100px;
-  margin-top: 30px;
-  margin-left: 13px;
-
-}
-.boot{
-  
-  width: 100px;
-  margin-top: 30px;
-  margin-left: 10px;
-}
-.mongo{
-   width: 100px;
-  margin-top: 30px;
-  margin-left: 10px;
 }
