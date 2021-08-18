@@ -59,7 +59,7 @@ var form = document.getElementById("contactForm");
       var status = document.getElementById("submitSuccessMessage");
       var data = new FormData(event.target);
       fetch(event.target.action, {
-        method: form.reset, //method
+        method: form.method, 
         body: data,
         headers: {
             'Accept': 'application/json'
