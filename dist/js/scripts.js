@@ -23,6 +23,12 @@ window.addEventListener('DOMContentLoaded', event => {
 
     };
 
+    new TypeIt("#simpleUsage", {
+        strings: "",
+        speed: 115,
+        waitUntilVisible: true,
+      }).go();
+
     // Shrink the navbar 
     navbarShrink();
 
@@ -77,3 +83,5 @@ var form = document.getElementById("contactForm");
       });
     }
     form.addEventListener("submit", handleSubmit)
+
+    console.log("hellooo")
