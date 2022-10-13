@@ -11345,7 +11345,7 @@ body {
 .ang {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 100px;
+  width: 95px;
   height: 60px;
   margin-top: 30px;
   margin-left: 13px;
@@ -11362,18 +11362,23 @@ body {
   margin-left: 50px;
   margin-bottom: 18px;
 }
-@media (min-width: 534px) {
+@media (min-width: 800px) {
   .ge {
-   max-width:88%;
+   max-width:96%;
   }
 }
-@media (max-width: 534px) {
+@media (max-width: 984px) {
   .ge {
-   max-width:88%;
+   max-width:93%;
    
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 724px) {
+  .ge {
+   max-width:82%;
+  }
+}
+@media (max-width: 362px) {
   .ge {
    max-width:82%;
   }
