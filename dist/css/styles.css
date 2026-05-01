@@ -103,6 +103,7 @@ hr:not([size]) {
 }
 
 
+
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
@@ -168,6 +169,9 @@ abbr[data-bs-original-title] {
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
 }
+#portfolio {
+    margin-top: 70px !important;
+  }
 
 address {
   margin-bottom: 1rem;
@@ -11365,8 +11369,9 @@ body {
  background-size: 300%;
  border-radius: 30px;
  margin-top:20px;
-
+ padding: 15px;
 }
+
 .live-button:hover {
   animation: ani 8s linear infinite;
   border: none;
@@ -11468,13 +11473,6 @@ body {
   -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(245,58,23,0); 
   box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #fc0303, 5px 5px 15px 5px rgba(255,56,23,0);
   }
-
-
-
-
-
-
-
 
 
 
@@ -11649,6 +11647,7 @@ header.masthead h1, header.masthead .h1 {
   header.masthead h1, header.masthead .h1 {
     font-size: 3.5rem;
   }
+  
 }
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
